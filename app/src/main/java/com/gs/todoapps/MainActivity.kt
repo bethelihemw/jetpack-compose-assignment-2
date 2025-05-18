@@ -33,14 +33,3 @@ class MainActivity : ComponentActivity() {
 
     }
 }
-
-@Composable
-fun WelcomeScreen() {
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Text("Welcome to TODO App!", style = MaterialTheme.typography.headlineSmall)
-    }
-}
